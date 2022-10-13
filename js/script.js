@@ -1,6 +1,6 @@
 // My Scripts
 
-console.log('Page Loaded');
+// console.log('Page Loaded');
 
 new CircleType(document.getElementById('demo1'))
   .radius(384)
