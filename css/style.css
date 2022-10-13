@@ -1,18 +1,25 @@
 /* My Styles */
 
-  /* diagnostic styling */
 body {
     display: flex;
-    /* vertical alignment   */
+    /* vertical alignment  */
     align-items: center;
-    /* horizontal alignment   */
+    /*  horizontal alignment  */
     justify-content: center;
     /* stretch body to height of window   */
     height: 100vh;
   }
   
   h1 {
-    /*   curve-text: 45deg; */
-    color: orangered;
+    font-family: 'Switzer-Varable', sans-serif;
+    color: gray;
+  }
+  
+  .profile-pic {
+    position: absolute;
+    z-index: -1;
+    clip-path: circle();
+    width: 280px;
+    height: 280px;
   }
   
